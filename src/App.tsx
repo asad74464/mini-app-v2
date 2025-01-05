@@ -10,7 +10,7 @@ import "./styles/animations.css";
 
 function App() {
   return (
-    <Router basename="/mr2-mini-app">
+    <Router basename="/mini-app-v2">
       <div className="min-h-screen bg-black text-white relative">
         <StarField />
         <Layout>

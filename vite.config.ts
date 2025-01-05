@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/mr2-mini-app",
+  base: "/mini-app-v2",
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
