@@ -1,6 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0;url=/mini-app-v2/">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found</title>
+    <script>
+      // JavaScript to handle the routing fallback
+      let path = window.location.pathname;
+      let basename = '/mini-app-v2';
+
+      // If the path is not the root or index, redirect to the main index page
+      if (!path.startsWith(basename)) {
+        window.location.replace(basename);
+      }
+    </script>
   </head>
   <body>
   </body>
